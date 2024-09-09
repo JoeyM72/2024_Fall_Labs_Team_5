@@ -29,13 +29,13 @@ ylabel("Frequency, Hz")
 
 figure(4);
 subplot(1,2,1);
-plot(t(18000:30000), y(18000:30000))
+plot(t(24000:30000), y(24000:30000))
 title("Original Audio")
 xlabel("Time, seconds")
 ylabel("Frequency, Hz")
 
 subplot(1,2,2);
-plot(t(3000:5000), y(3000:5000))
+plot(t_new(4000:5000), y_new(4000:5000))
 title("Resampled Audio")
 xlabel("Time, seconds")
 ylabel("Frequency, Hz")
